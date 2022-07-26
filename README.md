@@ -1,6 +1,5 @@
-# Kamzzy Financials
+# School Library
 > A school library built with object oriented programming(OOP)
-***
 <!-- ### [Deployed Version]()
 ### [Demo Video]() -->
  ***
@@ -11,7 +10,7 @@
 ## Getting Started
 
 > Clone the repository to get a local copy
-
+***
 ### Prerequisites
 > Ruby
 ***
@@ -31,7 +30,7 @@ Feel free to check the [issues page](../../issues/).
 
 Show your support
 Give a ⭐️ if you like this project!
-
+***
 ### Acknowledgments
 * Microverse
  ***
