@@ -32,7 +32,7 @@ def options(books, people, rentals)
       all_people(people)
     when 3
       create_a_person(people)
-    when 4 
+    when 4
       create_a_book(books)
     when 5
       create_rental(books, people, rentals)
