@@ -7,7 +7,7 @@ def all_books(books)
   if books.empty?
     puts 'No books available'
   else
-    books.each { |book| puts "Title: #{title}, Author: #{author}" }
+    books.each { |_book| puts "Title: #{title}, Author: #{author}" }
   end
 end
 
