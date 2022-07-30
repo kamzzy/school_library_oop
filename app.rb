@@ -7,7 +7,7 @@ def all_books(books)
   if books.empty?
     puts 'No books available'
   else
-    books.each { |_book| puts "Title: #{title}, Author: #{author}" }
+    books.each { |book| puts "Title: #{book.title}, Author: #{book.author}" }
   end
 end
 
@@ -71,8 +71,10 @@ end
 
 def all_rentals_by_id(rentals)
   print 'ID of person: '
-  person_id = gets.chomp.to_i
+  selected_person = gets.chomp.to_i
   rentals.map do |rental|
-    puts "Date: #{rental.date}, Book: #{rental.book.title} by #{rental.book.author}" if rental.person.id == person_id
+    if rental.person.id == selected_person
+      puts "Date: #{rental.date}, Book: '#{rental.book.title}' by #{rental.book.author}"
+    end
   end
 end
