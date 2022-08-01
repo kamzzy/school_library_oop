@@ -1,4 +1,5 @@
 # book has-many rentals
+
 class Book
   attr_accessor :title, :author, :rentals
 
