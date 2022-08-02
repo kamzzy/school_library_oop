@@ -1,5 +1,6 @@
-require './create_new'
-require './display_all'
+require './create_and_display_people'
+require './create_and_display_books'
+require './create_and_display_rentals'
 
 def options(books, people, rentals)
   loop do
