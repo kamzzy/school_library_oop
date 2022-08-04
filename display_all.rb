@@ -5,7 +5,7 @@ require './rental'
 require 'json'
 
 def all_books(*)
-  file = File.read('./books.json')
+  file = File.read('./json/books.json')
   parsed_books = JSON.parse(file)
   if parsed_books.empty?
     puts 'No books available'
@@ -15,7 +15,7 @@ def all_books(*)
 end
 
 def all_people(*)
-  file = File.read('./people.json')
+  file = File.read('./json/people.json')
   parsed_person = JSON.parse(file)
   if parsed_person.empty?
     puts 'No person created'
@@ -27,7 +27,7 @@ end
 
 def all_rentals_by_id(*)
   print 'ID of person: '
-  file = File.read('./rentals.json')
+  file = File.read('./json/rentals.json')
   parsed_rental = JSON.parse(file)
   selected_person = gets.chomp.to_i
   if parsed_rental.empty?
