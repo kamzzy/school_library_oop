@@ -20,7 +20,6 @@ def all_people(*)
   if parsed_person.empty?
     puts 'No person created'
   else
-    # people.each { |person| puts "[#{person.class}] Name: #{person.name}, ID: #{person.id}, Age: #{person.age}" }
     parsed_person.map { |person| puts "Name: #{person['name']}, ID: #{person['id']}, Age: #{person['age']}" }
   end
 end
