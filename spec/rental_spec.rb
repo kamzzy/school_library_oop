@@ -3,7 +3,7 @@ require_relative '../person'
 describe Rental do
   context 'When renting a book' do
     book = Book.new('title', 'author')
-    person = Person.new(25,'unknown', parent_permission: true)
+    person = Person.new(25, 'unknown', parent_permission: true)
     rental = Rental.new('20/11/2020', person, book)
     it 'should create a new rental with the given parameters' do
       expect(rental).to be_an_instance_of Rental
