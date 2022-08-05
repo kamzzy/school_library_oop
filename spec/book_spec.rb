@@ -4,6 +4,9 @@ describe Book do
     @book = Book.new('title', 'author')
   end
   describe 'create a new book' do
+    it 'should create a new instance of Book' do
+      expect(@book).to be_an_instance_of Book
+    end
     it 'should have a title' do
       @book.title = 'title'
       expect(@book.title).to eq('title')
