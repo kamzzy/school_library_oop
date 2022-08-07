@@ -5,11 +5,13 @@
  ***
 ## Built With
 > Ruby
-
 ***
 ## Getting Started
 
-> Clone the repository to get a local copy
+* Clone the repository to get a local copy
+* From commandline of your preferred ruby enviroment navigate to the file using cd <file path of the cloned repository>
+* Run the app using ruby main.rb  or require main.rb
+* Click on the numbers representing your options and follow the command prompt
 ***
 ### Prerequisites
 > Ruby
