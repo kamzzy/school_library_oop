@@ -1,0 +1,29 @@
+[
+  {
+    "date": "20/2/2020",
+    "name": "agnes",
+    "age": 22,
+    "parent_permission": true,
+    "id": 451,
+    "title": "first book",
+    "author": "first author"
+  },
+  {
+    "date": "2/2/2021",
+    "name": "faith",
+    "age": 33,
+    "specialization": "tech support",
+    "id": 758,
+    "title": "sec",
+    "author": "secondus"
+  },
+  {
+    "date": "2/1/2020",
+    "name": "faith",
+    "age": 33,
+    "specialization": "tech support",
+    "id": 758,
+    "title": "thank",
+    "author": "king"
+  }
+]
