@@ -1,5 +1,5 @@
 # School Library
-> A school library built with object oriented programming(OOP)
+> A command-line-based school library management application built with object-oriented programming (OOP). functionalities include adding books to the library, adding readers, lending books to readers, keeping track of readers who have borrowed books, and storing library information.
 <!-- ### [Deployed Version]()
 ### [Demo Video]() -->
  ***
